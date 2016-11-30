@@ -7,6 +7,8 @@ class LatToRusConverterTests: XCTestCase {
 
   func testTransliterate() {
     XCTAssertEqual(subject.transliterate("krasnaya shapochka"), "красная шапочка")
+    XCTAssertEqual(subject.transliterate("krasnyii otel'"), "красный отель")
+    XCTAssertEqual(subject.transliterate("KRASNYII OTEL'"), "КРАСНЫЙ ОТЕЛь")
   }
 }
 
