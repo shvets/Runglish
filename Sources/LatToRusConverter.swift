@@ -23,7 +23,7 @@ public class LatToRusConverter: Converter {
     "YE": "Э",
     "YU": "Ю",
     "YA": "Я",
-    "IE": "ЬЕ",
+    "IE": "ЬЕ"
   ]
 
   let SINGLE_TABLE = [

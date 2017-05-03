@@ -35,10 +35,10 @@ public class Converter {
     guard let regex = try? NSRegularExpression(pattern: regex, options: []) else { return [] }
 
     let nsString = str as NSString
-    let results  = regex.matches(in: str, options: [], range: NSMakeRange(0, nsString.length))
+    let results  = regex.matches(in: str, options: [], range: NSRange(location: 0, length: str.characters.count))
 
     return results.map { result in
-      (0..<result.numberOfRanges).map { result.rangeAt($0).location != NSNotFound
+      (0 ..< result.numberOfRanges).map { result.rangeAt($0).location != NSNotFound
         ? nsString.substring(with: result.rangeAt($0))
         : ""
       }
