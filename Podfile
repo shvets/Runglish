@@ -21,7 +21,7 @@ target 'Runglish_tvOS' do
 end
 
 target 'Runglish_macOS' do
-  platform :macos, '10.10'
+  platform :osx, '10.10'
 
   podspec :path => 'Runglish.podspec'
 
