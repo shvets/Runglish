@@ -5,7 +5,7 @@ target 'Runglish_iOS' do
 
   podspec :path => 'Runglish.podspec'
 
-  target 'WebAPI_iOSTests' do
+  target 'Runglish_iOSTests' do
     inherit! :search_paths
   end
 end
