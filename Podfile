@@ -20,12 +20,12 @@ target 'Runglish_tvOS' do
   end
 end
 
-target 'Runglish_macOS' do
-  platform :osx, '10.10'
-
-  podspec :path => 'Runglish.podspec'
-
-  target 'Runglish_macOSTests' do
-    inherit! :search_paths
-  end
-end
+# target 'Runglish_macOS' do
+#   platform :osx, '10.10'
+#
+#   podspec :path => 'Runglish.podspec'
+#
+#   target 'Runglish_macOSTests' do
+#     inherit! :search_paths
+#   end
+# end
