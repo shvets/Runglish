@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11AD0B39BEC3CB8BD36DDF56 /* Pods_Runglish_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5534349743802A882D44D455 /* Pods_Runglish_iOSTests.framework */; };
+		48EFB671618FFEDEAFF7B661 /* Pods_Runglish_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0042C0688C17C307766EEB /* Pods_Runglish_iOS.framework */; };
+		9B501001336455B4A2924116 /* Pods_Runglish_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731DE7E12168DDD8368D1D33 /* Pods_Runglish_tvOSTests.framework */; };
+		B10CFB0DB6F71BF93A6E3973 /* Pods_Runglish_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C78DB752320F5B91D15692 /* Pods_Runglish_tvOS.framework */; };
+		FAC4A94D1F7C251900C37CE2 /* Runglish_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4A9441F7C251800C37CE2 /* Runglish_iOS.framework */; };
+		FAC4A9521F7C251900C37CE2 /* Runglish_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4A9511F7C251900C37CE2 /* Runglish_iOSTests.swift */; };
+		FAC4A9541F7C251900C37CE2 /* Runglish_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC4A9461F7C251800C37CE2 /* Runglish_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC4A9691F7C259300C37CE2 /* Runglish_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4A9601F7C259300C37CE2 /* Runglish_tvOS.framework */; };
+		FAC4A96E1F7C259300C37CE2 /* Runglish_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4A96D1F7C259300C37CE2 /* Runglish_tvOSTests.swift */; };
+		FAC4A9701F7C259300C37CE2 /* Runglish_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC4A9621F7C259300C37CE2 /* Runglish_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC4A9771F7C272E00C37CE2 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Converter.swift */; };
+		FAC4A9781F7C272E00C37CE2 /* LatToRusConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LatToRusConverter.swift */; };
+		FAC4A9791F7C272E00C37CE2 /* RusToLatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RusToLatConverter.swift */; };
+		FAC4A97A1F7C273100C37CE2 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Converter.swift */; };
+		FAC4A97B1F7C273100C37CE2 /* LatToRusConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LatToRusConverter.swift */; };
+		FAC4A97C1F7C273100C37CE2 /* RusToLatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RusToLatConverter.swift */; };
+		FAC4A97D1F7C273C00C37CE2 /* LatToRusConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* LatToRusConverterTests.swift */; };
+		FAC4A97E1F7C273C00C37CE2 /* RusToLatConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* RusToLatConverterTests.swift */; };
+		FAC4A97F1F7C273D00C37CE2 /* LatToRusConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* LatToRusConverterTests.swift */; };
+		FAC4A9801F7C273D00C37CE2 /* RusToLatConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* RusToLatConverterTests.swift */; };
 		OBJ_24 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Converter.swift */; };
 		OBJ_25 /* LatToRusConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LatToRusConverter.swift */; };
 		OBJ_26 /* RusToLatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RusToLatConverter.swift */; };
@@ -16,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FAC4A94E1F7C251900C37CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4A9431F7C251800C37CE2;
+			remoteInfo = Runglish_iOS;
+		};
+		FAC4A96A1F7C259300C37CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4A95F1F7C259300C37CE2;
+			remoteInfo = Runglish_tvOS;
+		};
 		FAF8C94F1E5FC48E00D03732 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -26,6 +60,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9F9A238C2F211A1362345F /* Pods-Runglish_tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_tvOSTests/Pods-Runglish_tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		27C78DB752320F5B91D15692 /* Pods_Runglish_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runglish_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36728AC67F08DBDFACA04572 /* Pods-Runglish_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_iOS/Pods-Runglish_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3B26F6E878361589B6FD2B09 /* Pods-Runglish_tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_tvOSTests/Pods-Runglish_tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		487FEE2F0C95807A9BDED0E2 /* Pods-Runglish_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_tvOS/Pods-Runglish_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5534349743802A882D44D455 /* Pods_Runglish_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runglish_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731DE7E12168DDD8368D1D33 /* Pods_Runglish_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runglish_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789E0D25419DA111DD1C8A00 /* Pods-Runglish_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_tvOS/Pods-Runglish_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		82EF340259C6B1E7F570420E /* Pods-Runglish_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_iOS/Pods-Runglish_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DE0042C0688C17C307766EEB /* Pods_Runglish_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runglish_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E218798B42F775C661A1CCFB /* Pods-Runglish_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_iOSTests/Pods-Runglish_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC4A9441F7C251800C37CE2 /* Runglish_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Runglish_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4A9461F7C251800C37CE2 /* Runglish_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runglish_iOS.h; sourceTree = "<group>"; };
+		FAC4A9471F7C251800C37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4A94C1F7C251900C37CE2 /* Runglish_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runglish_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4A9511F7C251900C37CE2 /* Runglish_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runglish_iOSTests.swift; sourceTree = "<group>"; };
+		FAC4A9531F7C251900C37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4A9601F7C259300C37CE2 /* Runglish_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Runglish_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4A9621F7C259300C37CE2 /* Runglish_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runglish_tvOS.h; sourceTree = "<group>"; };
+		FAC4A9631F7C259300C37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4A9681F7C259300C37CE2 /* Runglish_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runglish_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4A96D1F7C259300C37CE2 /* Runglish_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runglish_tvOSTests.swift; sourceTree = "<group>"; };
+		FAC4A96F1F7C259300C37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC150C0DB30EA9635D1D1505 /* Pods-Runglish_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runglish_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Runglish_iOSTests/Pods-Runglish_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		OBJ_10 /* LatToRusConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatToRusConverter.swift; sourceTree = "<group>"; };
 		OBJ_11 /* RusToLatConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusToLatConverter.swift; sourceTree = "<group>"; };
 		OBJ_14 /* LatToRusConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatToRusConverterTests.swift; sourceTree = "<group>"; };
@@ -37,6 +95,40 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FAC4A9401F7C251800C37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFB671618FFEDEAFF7B661 /* Pods_Runglish_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A9491F7C251900C37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A94D1F7C251900C37CE2 /* Runglish_iOS.framework in Frameworks */,
+				11AD0B39BEC3CB8BD36DDF56 /* Pods_Runglish_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A95C1F7C259300C37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10CFB0DB6F71BF93A6E3973 /* Pods_Runglish_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A9651F7C259300C37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A9691F7C259300C37CE2 /* Runglish_tvOS.framework in Frameworks */,
+				9B501001336455B4A2924116 /* Pods_Runglish_tvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -55,6 +147,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97747C8B79698692EB799014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36728AC67F08DBDFACA04572 /* Pods-Runglish_iOS.debug.xcconfig */,
+				82EF340259C6B1E7F570420E /* Pods-Runglish_iOS.release.xcconfig */,
+				FC150C0DB30EA9635D1D1505 /* Pods-Runglish_iOSTests.debug.xcconfig */,
+				E218798B42F775C661A1CCFB /* Pods-Runglish_iOSTests.release.xcconfig */,
+				487FEE2F0C95807A9BDED0E2 /* Pods-Runglish_tvOS.debug.xcconfig */,
+				789E0D25419DA111DD1C8A00 /* Pods-Runglish_tvOS.release.xcconfig */,
+				3B26F6E878361589B6FD2B09 /* Pods-Runglish_tvOSTests.debug.xcconfig */,
+				0E9F9A238C2F211A1362345F /* Pods-Runglish_tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E149BC876ACDEB19983955AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0042C0688C17C307766EEB /* Pods_Runglish_iOS.framework */,
+				5534349743802A882D44D455 /* Pods_Runglish_iOSTests.framework */,
+				27C78DB752320F5B91D15692 /* Pods_Runglish_tvOS.framework */,
+				731DE7E12168DDD8368D1D33 /* Pods_Runglish_tvOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC4A9451F7C251800C37CE2 /* Runglish_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4A9461F7C251800C37CE2 /* Runglish_iOS.h */,
+				FAC4A9471F7C251800C37CE2 /* Info.plist */,
+			);
+			path = Runglish_iOS;
+			sourceTree = "<group>";
+		};
+		FAC4A9501F7C251900C37CE2 /* Runglish_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4A9511F7C251900C37CE2 /* Runglish_iOSTests.swift */,
+				FAC4A9531F7C251900C37CE2 /* Info.plist */,
+			);
+			path = Runglish_iOSTests;
+			sourceTree = "<group>";
+		};
+		FAC4A9611F7C259300C37CE2 /* Runglish_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4A9621F7C259300C37CE2 /* Runglish_tvOS.h */,
+				FAC4A9631F7C259300C37CE2 /* Info.plist */,
+			);
+			path = Runglish_tvOS;
+			sourceTree = "<group>";
+		};
+		FAC4A96C1F7C259300C37CE2 /* Runglish_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4A96D1F7C259300C37CE2 /* Runglish_tvOSTests.swift */,
+				FAC4A96F1F7C259300C37CE2 /* Info.plist */,
+			);
+			path = Runglish_tvOSTests;
+			sourceTree = "<group>";
+		};
 		OBJ_12 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +232,10 @@
 			children = (
 				OBJ_17 /* Runglish.framework */,
 				OBJ_18 /* RunglishTests.xctest */,
+				FAC4A9441F7C251800C37CE2 /* Runglish_iOS.framework */,
+				FAC4A94C1F7C251900C37CE2 /* Runglish_iOSTests.xctest */,
+				FAC4A9601F7C259300C37CE2 /* Runglish_tvOS.framework */,
+				FAC4A9681F7C259300C37CE2 /* Runglish_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -88,7 +246,13 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_12 /* Tests */,
+				FAC4A9451F7C251800C37CE2 /* Runglish_iOS */,
+				FAC4A9501F7C251900C37CE2 /* Runglish_iOSTests */,
+				FAC4A9611F7C259300C37CE2 /* Runglish_tvOS */,
+				FAC4A96C1F7C259300C37CE2 /* Runglish_tvOSTests */,
 				OBJ_16 /* Products */,
+				97747C8B79698692EB799014 /* Pods */,
+				E149BC876ACDEB19983955AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +277,108 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FAC4A9411F7C251800C37CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A9541F7C251900C37CE2 /* Runglish_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A95D1F7C259300C37CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A9701F7C259300C37CE2 /* Runglish_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		FAC4A9431F7C251800C37CE2 /* Runglish_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4A9591F7C251900C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_iOS" */;
+			buildPhases = (
+				FDF6BDA6DE56B558DCB6AF35 /* [CP] Check Pods Manifest.lock */,
+				FAC4A93F1F7C251800C37CE2 /* Sources */,
+				FAC4A9401F7C251800C37CE2 /* Frameworks */,
+				FAC4A9411F7C251800C37CE2 /* Headers */,
+				FAC4A9421F7C251800C37CE2 /* Resources */,
+				3E10F88EF8D7374B919BEB0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runglish_iOS;
+			productName = Runglish_iOS;
+			productReference = FAC4A9441F7C251800C37CE2 /* Runglish_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAC4A94B1F7C251900C37CE2 /* Runglish_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4A95A1F7C251900C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_iOSTests" */;
+			buildPhases = (
+				936D4809D70785B3CCF20BC5 /* [CP] Check Pods Manifest.lock */,
+				FAC4A9481F7C251900C37CE2 /* Sources */,
+				FAC4A9491F7C251900C37CE2 /* Frameworks */,
+				FAC4A94A1F7C251900C37CE2 /* Resources */,
+				ACA7386D3B82E4FB17A710F6 /* [CP] Embed Pods Frameworks */,
+				E3FD4C6CE9FFC89E8883C843 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4A94F1F7C251900C37CE2 /* PBXTargetDependency */,
+			);
+			name = Runglish_iOSTests;
+			productName = Runglish_iOSTests;
+			productReference = FAC4A94C1F7C251900C37CE2 /* Runglish_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC4A95F1F7C259300C37CE2 /* Runglish_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4A9711F7C259300C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_tvOS" */;
+			buildPhases = (
+				3CD4FA30A92E4BF9A46BE3F5 /* [CP] Check Pods Manifest.lock */,
+				FAC4A95B1F7C259300C37CE2 /* Sources */,
+				FAC4A95C1F7C259300C37CE2 /* Frameworks */,
+				FAC4A95D1F7C259300C37CE2 /* Headers */,
+				FAC4A95E1F7C259300C37CE2 /* Resources */,
+				61980A59DFD09DDAE1E77CEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runglish_tvOS;
+			productName = Runglish_tvOS;
+			productReference = FAC4A9601F7C259300C37CE2 /* Runglish_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAC4A9671F7C259300C37CE2 /* Runglish_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4A9741F7C259300C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_tvOSTests" */;
+			buildPhases = (
+				5B9B546AC0F2F1C9D151CE50 /* [CP] Check Pods Manifest.lock */,
+				FAC4A9641F7C259300C37CE2 /* Sources */,
+				FAC4A9651F7C259300C37CE2 /* Frameworks */,
+				FAC4A9661F7C259300C37CE2 /* Resources */,
+				1905043D2CE35DD751B29094 /* [CP] Embed Pods Frameworks */,
+				AB62E8C4FF7107C2674AA124 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4A96B1F7C259300C37CE2 /* PBXTargetDependency */,
+			);
+			name = Runglish_tvOSTests;
+			productName = Runglish_tvOSTests;
+			productReference = FAC4A9681F7C259300C37CE2 /* Runglish_tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		OBJ_19 /* Runglish */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "Runglish" */;
@@ -153,8 +418,29 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 9999;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
+					FAC4A9431F7C251800C37CE2 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = Y63DEDERL2;
+						ProvisioningStyle = Automatic;
+					};
+					FAC4A94B1F7C251900C37CE2 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = Y63DEDERL2;
+						ProvisioningStyle = Automatic;
+					};
+					FAC4A95F1F7C259300C37CE2 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = Y63DEDERL2;
+						ProvisioningStyle = Automatic;
+					};
+					FAC4A9671F7C259300C37CE2 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = Y63DEDERL2;
+						ProvisioningStyle = Automatic;
+					};
 					OBJ_19 = {
 						LastSwiftMigration = 0900;
 					};
@@ -177,11 +463,251 @@
 			targets = (
 				OBJ_19 /* Runglish */,
 				OBJ_28 /* RunglishTests */,
+				FAC4A9431F7C251800C37CE2 /* Runglish_iOS */,
+				FAC4A94B1F7C251900C37CE2 /* Runglish_iOSTests */,
+				FAC4A95F1F7C259300C37CE2 /* Runglish_tvOS */,
+				FAC4A9671F7C259300C37CE2 /* Runglish_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FAC4A9421F7C251800C37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A94A1F7C251900C37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A95E1F7C259300C37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A9661F7C259300C37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1905043D2CE35DD751B29094 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_tvOSTests/Pods-Runglish_tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD4FA30A92E4BF9A46BE3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runglish_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E10F88EF8D7374B919BEB0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_iOS/Pods-Runglish_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9B546AC0F2F1C9D151CE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runglish_tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61980A59DFD09DDAE1E77CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_tvOS/Pods-Runglish_tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936D4809D70785B3CCF20BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runglish_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB62E8C4FF7107C2674AA124 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_tvOSTests/Pods-Runglish_tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA7386D3B82E4FB17A710F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_iOSTests/Pods-Runglish_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FD4C6CE9FFC89E8883C843 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runglish_iOSTests/Pods-Runglish_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF6BDA6DE56B558DCB6AF35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runglish_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FAC4A93F1F7C251800C37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A9781F7C272E00C37CE2 /* LatToRusConverter.swift in Sources */,
+				FAC4A9791F7C272E00C37CE2 /* RusToLatConverter.swift in Sources */,
+				FAC4A9771F7C272E00C37CE2 /* Converter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A9481F7C251900C37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A97D1F7C273C00C37CE2 /* LatToRusConverterTests.swift in Sources */,
+				FAC4A9521F7C251900C37CE2 /* Runglish_iOSTests.swift in Sources */,
+				FAC4A97E1F7C273C00C37CE2 /* RusToLatConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A95B1F7C259300C37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A97B1F7C273100C37CE2 /* LatToRusConverter.swift in Sources */,
+				FAC4A97C1F7C273100C37CE2 /* RusToLatConverter.swift in Sources */,
+				FAC4A97A1F7C273100C37CE2 /* Converter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4A9641F7C259300C37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4A97F1F7C273D00C37CE2 /* LatToRusConverterTests.swift in Sources */,
+				FAC4A96E1F7C259300C37CE2 /* Runglish_tvOSTests.swift in Sources */,
+				FAC4A9801F7C273D00C37CE2 /* RusToLatConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -204,6 +730,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FAC4A94F1F7C251900C37CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4A9431F7C251800C37CE2 /* Runglish_iOS */;
+			targetProxy = FAC4A94E1F7C251900C37CE2 /* PBXContainerItemProxy */;
+		};
+		FAC4A96B1F7C259300C37CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4A95F1F7C259300C37CE2 /* Runglish_tvOS */;
+			targetProxy = FAC4A96A1F7C259300C37CE2 /* PBXContainerItemProxy */;
+		};
 		OBJ_37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_19 /* Runglish */;
@@ -212,6 +748,518 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FAC4A9551F7C251900C37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36728AC67F08DBDFACA04572 /* Pods-Runglish_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAC4A9561F7C251900C37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EF340259C6B1E7F570420E /* Pods-Runglish_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAC4A9571F7C251900C37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC150C0DB30EA9635D1D1505 /* Pods-Runglish_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC4A9581F7C251900C37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E218798B42F775C661A1CCFB /* Pods-Runglish_iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC4A9721F7C259300C37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487FEE2F0C95807A9BDED0E2 /* Pods-Runglish_tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAC4A9731F7C259300C37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789E0D25419DA111DD1C8A00 /* Pods-Runglish_tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAC4A9751F7C259300C37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B26F6E878361589B6FD2B09 /* Pods-Runglish_tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		FAC4A9761F7C259300C37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9F9A238C2F211A1362345F /* Pods-Runglish_tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Y63DEDERL2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runglish_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubikon.Runglish-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		OBJ_21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,12 +1307,36 @@
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +1354,7 @@
 		OBJ_30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -301,7 +1373,7 @@
 		OBJ_31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -320,11 +1392,34 @@
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
@@ -332,7 +1427,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
@@ -341,6 +1436,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FAC4A9591F7C251900C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4A9551F7C251900C37CE2 /* Debug */,
+				FAC4A9561F7C251900C37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAC4A95A1F7C251900C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4A9571F7C251900C37CE2 /* Debug */,
+				FAC4A9581F7C251900C37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAC4A9711F7C259300C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4A9721F7C259300C37CE2 /* Debug */,
+				FAC4A9731F7C259300C37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAC4A9741F7C259300C37CE2 /* Build configuration list for PBXNativeTarget "Runglish_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4A9751F7C259300C37CE2 /* Debug */,
+				FAC4A9761F7C259300C37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_2 /* Build configuration list for PBXProject "Runglish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

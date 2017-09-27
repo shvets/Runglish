@@ -1,0 +1,6 @@
+framework module Pods_Runglish_tvOS {
+  umbrella header "Pods-Runglish_tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

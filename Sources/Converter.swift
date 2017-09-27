@@ -38,8 +38,8 @@ public class Converter {
     let results  = regex.matches(in: str, options: [], range: NSRange(location: 0, length: str.characters.count))
 
     return results.map { result in
-      (0 ..< result.numberOfRanges).map { result.rangeAt($0).location != NSNotFound
-        ? nsString.substring(with: result.rangeAt($0))
+      (0 ..< result.numberOfRanges).map { result.range(at: $0).location != NSNotFound
+        ? nsString.substring(with: result.range(at: $0))
         : ""
       }
     }
