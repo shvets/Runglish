@@ -90,7 +90,6 @@
 		OBJ_15 /* RusToLatConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusToLatConverterTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Runglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_18 /* RunglishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RunglishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,7 +242,6 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_12 /* Tests */,
 				FAC4A9451F7C251800C37CE2 /* Runglish_iOS */,
