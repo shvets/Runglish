@@ -31,7 +31,7 @@
 		OBJ_14 /* LatToRusConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatToRusConverterTests.swift; sourceTree = "<group>"; };
 		OBJ_15 /* RusToLatConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusToLatConverterTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Runglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_18 /* RunglishTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = RunglishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_18 /* RunglishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RunglishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +154,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_19 = {
+						LastSwiftMigration = 0900;
+					};
+					OBJ_28 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Runglish" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,6 +228,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Runglish;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Runglish;
 			};
 			name = Debug;
@@ -240,6 +250,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Runglish;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Runglish;
 			};
 			name = Release;
@@ -262,7 +274,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -280,6 +292,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = RunglishTests;
 			};
 			name = Debug;
@@ -297,6 +311,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = RunglishTests;
 			};
 			name = Release;
@@ -317,7 +333,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
