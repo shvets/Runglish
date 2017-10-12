@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Runglish"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Transliterates strings between Russian and English languages"
   s.description  = "Transliterates strings between Russian and English languages."
 
