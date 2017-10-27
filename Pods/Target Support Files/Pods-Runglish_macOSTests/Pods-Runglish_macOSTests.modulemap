@@ -1,0 +1,6 @@
+framework module Pods_Runglish_macOSTests {
+  umbrella header "Pods-Runglish_macOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
