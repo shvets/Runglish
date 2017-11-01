@@ -35,7 +35,7 @@ public class Converter {
     guard let regex = try? NSRegularExpression(pattern: regex, options: []) else { return [] }
 
     let nsString = str as NSString
-    let results  = regex.matches(in: str, options: [], range: NSRange(location: 0, length: str.characters.count))
+    let results  = regex.matches(in: str, options: [], range: NSRange(location: 0, length: str.count))
 
     return results.map { result in
       (0 ..< result.numberOfRanges).map { result.range(at: $0).location != NSNotFound
